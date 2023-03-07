@@ -1,8 +1,16 @@
 package com.example.demo.student;
 
 import java.time.LocalDate;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
 
+@Entity
+@Table
 public class Student {
+    @Id
+    @SequenceGenerator
     private Long id;
     private String name;
     private String email;
