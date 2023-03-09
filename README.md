@@ -1,3 +1,5 @@
+### Request examples using CURL
+
 POST request example:
 
 ```
