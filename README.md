@@ -1,6 +1,6 @@
 ### Request examples using CURL
 
-POST request example:
+**POST** request example:
 
 ```
 $ curl -X POST -H "Content-Type: application/json" \
@@ -8,8 +8,13 @@ $ curl -X POST -H "Content-Type: application/json" \
     localhost:8080/api/v1/student
 ```
 
-DELETE request example:
+**DELETE** request example:
 
 ```
 $ curl -X DELETE localhost:8080/api/v1/student/2
+```
+
+**PUT** request example:
+```
+$ curl -X PUT -d email=newemail@gmail.com -d name=NEWNAME localhost:8080/api/v1/student/2
 ```
