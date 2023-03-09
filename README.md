@@ -1,4 +1,4 @@
-### Request examples using CURL
+### Request examples using curl
 
 **POST** request example:
 
