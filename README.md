@@ -16,5 +16,5 @@ curl -X DELETE localhost:8080/api/v1/student/2
 
 **PUT** request example:
 ```
-curl -X PUT -d email=newemail@gmail.com -d name=newname localhost:8080/api/v1/student/2
+curl -X PUT -d email=newemail@example.com -d name=newname localhost:8080/api/v1/student/2
 ```
